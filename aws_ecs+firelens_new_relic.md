@@ -57,13 +57,13 @@
         "logDriver": "awsfirelens",
         "options": {
           "Name": "newrelic",
-          "apiKey": "b418de86fea2476a521a8f78e410d33421f4NRAL" # our new relic license key
+          "apiKey": "b418de..." # our new relic license key
         }
       }
     }
   ],
-  "taskRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766.....
-  "executionRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766..
+  "taskRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766...
+  "executionRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766...
   "cpu": "1 vcpu",
   "memory": "2 gb"
 }
