@@ -62,8 +62,8 @@
       }
     }
   ],
-  "taskRoleArn": "arn:aws:iam::676634049556:role/ecsTaskExecutionRole", # aws account id = 676634049556
-  "executionRoleArn": "arn:aws:iam::676634049556:role/ecsTaskExecutionRole", # aws account id = 676634049556
+  "taskRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766.....
+  "executionRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole", # example aws account id = 6766..
   "cpu": "1 vcpu",
   "memory": "2 gb"
 }
